@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #1e491e;
+}
+li{
+	list-style: none;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: rgb(96, 175, 155);
+}
+.drop__container {
+	display: flex;
+}
+.dropdown {
+	margin-right: 10px;
+}
+.drop__btn {
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px #22b222;
+	box-shadow: 3px 3px 3px rgb(58, 147, 215);
+	background-color: #558955;
+}
+.drop__btn:hover {
+	background-color: #74b574;
+}
+.dropdown-menu {
+	display: none;
+	/* padding: 10px; */
+	border: 1px solid #348234;
+	box-shadow: 3px 3px 3px rgb(58, 147, 215);
+}
+li {
+	width: 100%;
+	text-align: center;
+}
+li:hover {
+	background-color: #558955;
+}
+
+/*Функциональные классы*/
+
+.menu-active {
+	display: block;
+}
